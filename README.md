@@ -1,29 +1,22 @@
 ## Welcome! 👋
 
-Thanks for checking out this front-end coding challenge.
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-This is a simple web application showcasing my command of HTML and CSS.
+React Meme Generator is a simple React app that pulls popular meme images from an API and adds context to the image.
 
 ## The challenge
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-The main challenge here is laying out the cards in a three column design and make it responsive according to the user screen.
+
+The challenges here is to make a succesful API call to ("https://api.imgflip.com/get_memes"), display a random image and give users ability to add top and bottom texts as a context to the image and also pull a different image from the API call as the user clicks on the main button.
 
 ## My solution
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-I started building with the three main cards on top of each other, considering the mobile design first. Once everything is settled for the mobile screens, I then added media queries
-and reorganized the cards horizontally, forming a one big card the contains the three smaller cards as its columns. From there, it was just a matter of scaling the size the main card
-according to the size of the screen.
+
+- API Call - used React side effect to fetch data using an async function
+  - ![solution for API call](https://i.ibb.co/8BLMsdL/useeffect.png)
+- State - used React state to manage data of meme and allMeme data (JSON)
+  - ![solution for state management](https://i.ibb.co/6bgTF39/state.png)
+- Eventlistener - implement proper event handling for form and button click
+  - ![solution for events](https://i.ibb.co/JdjBg8t/events.png)
 
 ## Technologies used
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
+
 - React
 - JS
 - HTML
@@ -34,15 +27,13 @@ according to the size of the screen.
 
 ## Preview
 
-![Actual preview for my project - Desktop](./design/actual-desktop.png)
+![Actual preview for my project - Desktop](https://i.ibb.co/Nx2FgBg/localhost-3000-1.png)
 
 ## Deployment
 
 You may visit the deployed web app through the link below.
-&&&&&&&&&&&
-&EDIT THIS&
-&&&&&&&&&&&
-- [SITE](LINKTOSITE)
+
+- [https://amiralles-react-meme-generator.netlify.app/](https://amiralles-react-meme-generator.netlify.app/)
 
 ## Footnote
 
