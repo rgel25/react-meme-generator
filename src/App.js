@@ -9,7 +9,10 @@ export default function App() {
       <Helmet>
         <meta charSet="utf-8" />
         <title>Meme Generator</title>
-        <link rel="canonical" href="http://mysite.com/example" />
+        <link
+          rel="canonical"
+          href="https://amiralles-react-meme-generator.netlify.app/"
+        />
       </Helmet>
       <div className="container">
         <Navbar />
